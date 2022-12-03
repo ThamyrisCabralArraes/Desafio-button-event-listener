@@ -8,7 +8,7 @@ form {
   font-size: 20px;
 }
 
-h1 {
+#h1 {
   text-align: center;
   margin-top: 100px;
   color: darkblue;
@@ -67,4 +67,8 @@ button:hover {
   width: 100px;
   height: 20px;
   margin: 10px;
+}
+
+.branco {
+  color: aliceblue;
 }

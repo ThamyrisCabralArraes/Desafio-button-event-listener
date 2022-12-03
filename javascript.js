@@ -7,6 +7,7 @@ let situacaoFinal = document.getElementById('situacaoFinal');
 const body = document.getElementById('body');
 const bdark = document.getElementById('bdark');
 const bligth = document.getElementById('bligth');
+const h1 = document.getElementById('h1');
 
 const calcularMedia = (event) => {
   event.preventDefault();
@@ -37,8 +38,10 @@ buttonOff.addEventListener('click', function () {
 
 bdark.addEventListener('click', function () {
   body.classList.add('dark');
+  h1.classList.add('branco');
 });
 
 bligth.addEventListener('click', function () {
   body.classList.remove('dark');
+  h1.classList.remove('branco');
 });
