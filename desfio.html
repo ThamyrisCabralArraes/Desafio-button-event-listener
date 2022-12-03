@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Calculadora da Média</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <h1>Calcular Média</h1>
+
+    <div>
+      <form>
+        <div>
+          <label for="nota1">Nota 1</label
+          ><input
+            type="number"
+            name="nota1"
+            min="0"
+            max="10"
+            id="nota1"
+          />
+        </div>
+
+        <div>
+          <label for="nota2">Nota 2</label
+          ><input
+            type="number"
+            name="nota2"
+            min="0"
+            max="10"
+            id="nota2"
+          />
+        </div>
+
+        <div>
+          <button
+            type="submit"
+            id="btnOn"
+          >
+            calcular
+          </button>
+
+          <button
+            type="reset"
+            id="btnOff"
+          >
+            Reset
+          </button>
+        </div>
+
+        <div>
+          <label for="media">Média</label>
+
+          <span id="resultMedia"></span>
+        </div>
+
+        <div>
+          <p id="situacaoFinal">Situação Final</p>
+        </div>
+      </form>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
