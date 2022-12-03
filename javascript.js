@@ -4,6 +4,9 @@ const nota1 = document.getElementById('nota1');
 const nota2 = document.getElementById('nota2');
 const resultadoMedia = document.getElementById('resultMedia');
 let situacaoFinal = document.getElementById('situacaoFinal');
+const body = document.getElementById('body');
+const bdark = document.getElementById('bdark');
+const bligth = document.getElementById('bligth');
 
 const calcularMedia = (event) => {
   event.preventDefault();
@@ -30,4 +33,12 @@ buttonOff.addEventListener('click', function () {
   situacaoFinal.textContent = 'Situação Final';
   situacaoFinal.classList.remove('vermelho');
   situacaoFinal.classList.remove('verde');
+});
+
+bdark.addEventListener('click', function () {
+  body.classList.add('dark');
+});
+
+bligth.addEventListener('click', function () {
+  body.classList.remove('dark');
 });

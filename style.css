@@ -1,10 +1,15 @@
-* {
+.dark {
+  background-color: rgb(21, 20, 35);
+  color: aliceblue;
+}
+
+form {
   text-align: center;
-  background-color: rgb(252, 219, 219);
   font-size: 20px;
 }
 
 h1 {
+  text-align: center;
   margin-top: 100px;
   color: darkblue;
   font-size: 40px;
@@ -19,7 +24,7 @@ h1 {
 }
 
 button {
-  background-color: darkblue;
+  background-color: rgba(20, 20, 133, 0.8);
   color: aliceblue;
   width: 100px;
   height: 30px;
