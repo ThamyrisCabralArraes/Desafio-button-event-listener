@@ -1,18 +1,45 @@
+* {
+  text-align: center;
+  background-color: rgb(252, 219, 219);
+  font-size: 20px;
+}
+
+h1 {
+  margin-top: 100px;
+  color: darkblue;
+  font-size: 40px;
+}
+
 #resultMedia {
   display: inline-block;
   width: 100px;
   height: 20px;
   border: 2px solid black;
+  margin: 10px;
+}
+
+button {
+  background-color: darkblue;
+  color: aliceblue;
+  width: 100px;
+  height: 30px;
+}
+
+button:hover {
+  background-color: rgba(49, 49, 149, 0.651);
 }
 
 #situacaoFinal {
   display: inline-block;
-  width: 120px;
+  width: 150px;
   height: 20px;
-  border: 2px solid black;
-  padding: 4px;
-  padding-left: 15px;
-  margin: 5px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 9px;
+  padding-left: 10px;
+  margin: 10px;
+  background-color: rgba(49, 49, 149, 0.651);
+  color: aliceblue;
 }
 
 .vermelho {
@@ -23,4 +50,16 @@
 .verde {
   background-color: rgb(2, 53, 2);
   color: aliceblue;
+}
+
+#nota1 {
+  width: 100px;
+  height: 20px;
+  margin: 10px;
+}
+
+#nota2 {
+  width: 100px;
+  height: 20px;
+  margin: 10px;
 }

@@ -26,7 +26,7 @@ const meuIf = () => {
 buttonOn.addEventListener('click', calcularMedia);
 
 buttonOff.addEventListener('click', function () {
-  resultadoMedia.textContent = '';
+  resultadoMedia.textContent = 'Média';
   situacaoFinal.textContent = 'Situação Final';
   situacaoFinal.classList.remove('vermelho');
   situacaoFinal.classList.remove('verde');
